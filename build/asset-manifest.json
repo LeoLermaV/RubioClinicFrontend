@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/rubiowebsite/static/css/main.7ceaccc3.chunk.css",
+    "main.js": "/rubiowebsite/static/js/main.5e3e5466.chunk.js",
+    "main.js.map": "/rubiowebsite/static/js/main.5e3e5466.chunk.js.map",
+    "runtime-main.js": "/rubiowebsite/static/js/runtime-main.62533062.js",
+    "runtime-main.js.map": "/rubiowebsite/static/js/runtime-main.62533062.js.map",
+    "static/js/2.9b651a1d.chunk.js": "/rubiowebsite/static/js/2.9b651a1d.chunk.js",
+    "static/js/2.9b651a1d.chunk.js.map": "/rubiowebsite/static/js/2.9b651a1d.chunk.js.map",
+    "index.html": "/rubiowebsite/index.html",
+    "static/css/main.7ceaccc3.chunk.css.map": "/rubiowebsite/static/css/main.7ceaccc3.chunk.css.map",
+    "static/js/2.9b651a1d.chunk.js.LICENSE.txt": "/rubiowebsite/static/js/2.9b651a1d.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/rubiowebsite/static/media/rehab.b823fd99.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.62533062.js",
+    "static/js/2.9b651a1d.chunk.js",
+    "static/css/main.7ceaccc3.chunk.css",
+    "static/js/main.5e3e5466.chunk.js"
+  ]
+}

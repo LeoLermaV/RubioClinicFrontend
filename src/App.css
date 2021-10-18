@@ -1,0 +1,360 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.contactanos,
+.inicio,
+.services,
+.products,
+.contact-us,
+.sign-up,
+.marketing,
+.consulting,
+.development, 
+.design{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
+  color: darkgrey;
+}
+
+.design {
+  background-image: url('./images/laserye.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
+
+.development {
+  background-image: url('./images/estravismo.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
+
+
+.contactanos {
+  background-image: url('./images/contactus.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  font-size: 100px;
+}
+.inicio {
+  display: flex;
+  flex-direction: column;
+  background-image: url('./images/img-6.jpg');
+  background-repeat: no-repeat;
+  color: black;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; 
+  font-size: 100px;
+ }
+
+.services {
+  background-image: url('./images/oftalmo.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; 
+  color:black;
+  font-size: 100px;
+}
+
+.products {
+  background-image: url('./images/rehab.jpeg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; 
+  color: black;
+  font-size: 100px;
+}
+
+.contact-us {
+  background-image: url('./images/img-4.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; 
+  color: #fff;
+  font-size: 100px;
+}
+
+.sign-up {
+  background-image: url('./images/img-7.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+}
+
+.marketing {
+  background-image: url('./images/laserye.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; 
+  color: black;
+  font-size: 100px;
+}
+
+.landingtext{
+  justify-content: center;
+  align-items: center;
+}
+
+.lorems h2 {
+  padding: 2vw;
+}
+.lorems h1 {
+  padding-top: 4vh;
+}
+
+.consulting {
+  background-image: url('./images/lasik.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover; 
+  color: black;
+  font-size: 90px;
+}
+
+
+.landing{
+  text-align: center;
+  margin: 10vw;
+  /*/animation: showup 1s linear;
+  opacity: 0;
+  animation-fill-mode:forwards;
+  animation-iteration-count: 1;/*/
+}
+
+@keyframes showup {
+  0% {opacity: 0;}
+  10% {opacity: .1;}
+  30% {opacity: .3;}
+  40% {opacity: .4;}
+  60% {opacity: .6;}
+  80% {opacity: .8;}
+  100% { opacity: 1;}
+}
+
+.addresscontainer {
+  font-size: 10px;
+  padding: 5vw;
+  width: 90vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color: black;
+  align-items: center;
+}
+
+.lorems{
+  padding: 10vw;
+  text-align: center;
+}
+
+
+.contactusform {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  font-size: x-large;
+  margin-bottom: 6rem;
+}
+
+.contactusform p {
+  margin-bottom: 2rem;
+
+}
+
+.contactusform .btn2 {
+  margin-top: 2rem;
+}
+
+.inputclass {
+  padding: .5rem;
+  margin: .5rem;
+  width: 30vw;
+  height: 2.5rem;
+  justify-content: center;
+  align-content: center;
+}
+
+.textclass {
+  margin: 1rem;
+  width: 30vw;
+  height: 10rem;
+}
+
+.login {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: 3rem;
+  padding-top: 20vh;
+
+}
+
+.formitem {
+  display: flex;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 2vh;
+}
+
+.formitem input {
+  width: 20vw;
+  height: 7vh;
+  font-size: x-large;
+}
+
+.btn2 {
+  padding: 8px 20px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: #fff;
+  width: 15vw;
+  cursor: pointer;
+  background-color: #1888ff;
+}
+
+.btn2:hover {
+  padding: 6px 18px;
+  transition: all 0.3s ease-out;
+  background-color: #69c4e8;
+  color: #fff;
+  border-radius: 4px;
+  border: 2px solid var(--primary);
+  transition: all 0.3s ease-out;
+}
+
+.adminpage{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start
+}
+
+.controlpanel{
+  border-top: 1px solid black ;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  width: 20vw;
+  font-size: xx-large;
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  height: 90vh;
+  font-weight: 500;
+}
+
+.editable{
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5vh;
+  align-items: center;
+  height: 90vh;
+  border-top: 1px solid black ;
+  border-bottom: 1px solid black;
+}
+
+.controlpanel ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5vh;
+  list-style: none; 
+}
+
+.controlpanel li {
+  cursor: pointer;
+}
+/* *{
+  color: #343434;
+} */
+
+.titleofeditablepage{
+  font-size: xx-large;
+}
+
+.pageToEditOnEditablePage{
+  font-size: x-large;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.richTextEditotClass{
+  height: 40vh;
+}
+
+.ck-editor__editable{
+  height: 40vh;
+  max-width: 55vw;
+  min-width: 55vw;
+}
+
+.loremsinicio{
+  padding: 5vw;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .inputclass{
+    width: 60vw;
+  }
+
+  .textclass{
+    width: 60vw;
+  }
+  .fa-caret-down {
+    display: none;
+  }
+  .addresscontainer{
+    flex-direction: column;
+    height: 50vh;
+  }
+
+  .addresscontainer iframe {
+    width: 80vw;
+  }
+}
